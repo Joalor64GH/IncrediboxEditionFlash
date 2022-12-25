@@ -89,13 +89,13 @@ var app = new function() {
     }, {
         name: "Little Miss",
         src: "v2-b2-miss-hb.mp4",
-        code: "5,6,7,13,15",
+        code: "1,2,10,13,15",
         sound: "bonus-miss",
         aspire: "aspire"
     }, {
         name: "Why this world",
         src: "v2-b3-world-hb.mp4",
-        code: "6,8,9,14,18",
+        code: "1,3,4,14,18",
         sound: "bonus-world",
         aspire: "aspire"
     }];
