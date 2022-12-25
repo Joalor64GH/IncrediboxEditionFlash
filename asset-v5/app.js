@@ -1,6 +1,6 @@
 /* 0.5.4 2021-04-23 21:06:13 */
 var app = new function() {
-    this.name = "Brazil", this.version = "5", this.date = "2016", this.folder = "asset-v5/", this.looptime = 8e3, this.bpm = 120, this.totalframe = 384, this.nbpolo = 7, this.nbloopbonus = 1, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 23, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#0a190f", this.col0 = "#6EB950", this.col1 = "#41A032", this.col2 = "#2D7D28", this.col3 = "#235023", this.col4 = "#14321E", this.animearray = [{
+    this.name = "Everything", this.version = "0", this.date = "2009", this.folder = "asset-v5/", this.looptime = 5333, this.bpm = 90, this.totalframe = 260, this.nbpolo = 7, this.nbloopbonus = 2, this.bonusloopA = !2, this.bonusendloopA = !2, this.recmaxloop = 34, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#121212", this.col0 = "#919191", this.col1 = "#5f5f5f", this.col2 = "#4b4b4b", this.col3 = "#373737", this.col4 = "#232323", this.animearray = [{
         name: "1_poum",
         color: "FAB405",
         uniqsnd: !0
@@ -13,89 +13,65 @@ var app = new function() {
         color: "FAB405",
         uniqsnd: !0
     }, {
-        name: "4_chouk",
+        name: "4_tek",
         color: "FAB405",
         uniqsnd: !0
     }, {
-        name: "5_kaliak",
+        name: "5_tuk",
         color: "FAB405",
         uniqsnd: !0
     }, {
-        name: "6_tek",
-        color: "23BEE1",
+        name: "6_teung",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "7_tuk",
-        color: "23BEE1",
+        name: "7_ting",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "8_teung",
-        color: "23BEE1",
+        name: "8_parimba",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "9_ting",
-        color: "23BEE1",
+        name: "9_coloko",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "10_kougou",
-        color: "23BEE1",
+        name: "10_clav",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "11_parimba",
-        color: "64B92D",
+        name: "11_bass",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "12_coloko",
-        color: "64B92D",
+        name: "12_wa",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "13_clav",
-        color: "64B92D",
+        name: "13_ya",
+        color: "828282",
         uniqsnd: !0
     }, {
-        name: "14_tromp",
-        color: "64B92D",
-        uniqsnd: !0
-    }, {
-        name: "15_trompolo",
-        color: "64B92D",
-        uniqsnd: !0
-    }, {
-        name: "16_bass",
-        color: "E63C14",
-        uniqsnd: !0
-    }, {
-        name: "17_wa",
-        color: "E63C14",
-        uniqsnd: !0
-    }, {
-        name: "18_ya",
-        color: "E63C14",
-        uniqsnd: !0
-    }, {
-        name: "19_palapa",
-        color: "E63C14",
-        uniqsnd: !0
-    }, {
-        name: "20_oh",
-        color: "E63C14",
+        name: "14_palapa",
+        color: "828282",
         uniqsnd: !0
     }], this.bonusarray = [{
-        name: "Felicidade",
+        name: "The Choir",
         src: "v5-b1-felicidade-hb.mp4",
-        code: "1,3,6,10,16",
+        code: "4,6,7,8,12",
         sound: "bonus-felicidade",
         aspire: "aspire"
     }, {
-        name: "Chegou",
+        name: "Sailor",
         src: "v5-b2-chegou-hb.mp4",
-        code: "1,4,9,13,17",
+        code: "1,8,10,11,14",
         sound: "bonus-chegou",
         aspire: "aspire"
     }, {
-        name: "Musica",
+        name: "Santa",
         src: "v5-b3-musica-hb.mp4",
-        code: "1,5,7,14,19",
+        code: "1,9,12,13,14",
         sound: "bonus-musica",
         aspire: "aspire"
     }], this.unlockerarray = [];
