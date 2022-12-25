@@ -2,23 +2,23 @@
 var app = new function() {
     this.name = "Everything", this.version = "1", this.date = "2009", this.folder = "asset-v5/", this.looptime = 5333, this.bpm = 90, this.totalframe = 260, this.nbpolo = 7, this.nbloopbonus = 2, this.bonusloopA = !2, this.bonusendloopA = !2, this.recmaxloop = 34, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#121212", this.col0 = "#919191", this.col1 = "#5f5f5f", this.col2 = "#4b4b4b", this.col3 = "#373737", this.col4 = "#232323", this.animearray = [{
         name: "1_poum",
-        color: "FAB405",
+        color: "828282",
         uniqsnd: !0
     }, {
         name: "2_creuki",
-        color: "FAB405",
+        color: "828282",
         uniqsnd: !0
     }, {
         name: "3_shaka",
-        color: "FAB405",
+        color: "828282",
         uniqsnd: !0
     }, {
         name: "4_tek",
-        color: "FAB405",
+        color: "828282",
         uniqsnd: !0
     }, {
         name: "5_tuk",
-        color: "FAB405",
+        color: "828282",
         uniqsnd: !0
     }, {
         name: "6_teung",
