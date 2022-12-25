@@ -67,7 +67,7 @@ var app = new function() {
     }, {
         name: "17_djinga",
         color: "787DFF",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "18_djinta",
         color: "787DFF",
